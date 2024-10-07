@@ -1,11 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Happy Birthday!
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="modulepreload" href="./_app/immutable/entry/start.BTMXfS2s.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.7Rdz2j15.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/runtime.CQvpGMFJ.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.DHkkwPoH.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/render.CxS1WH0b.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/disclose-version.ClRmIJWn.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index-client.CKWjSVl2.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_13vl6wv = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("./_app/immutable/entry/start.BTMXfS2s.js"),
+						import("./_app/immutable/entry/app.DHkkwPoH.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
 </html>
